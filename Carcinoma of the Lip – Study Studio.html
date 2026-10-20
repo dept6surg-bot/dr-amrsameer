@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Carcinoma of the Lip – Study Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf6f4;--card:#fff;--ink:#3a1a22;--mut:#7a5f66;--line:#ead8d8;--acc:#b0304f;--accbg:#f8e1e6;--ok:#1f7a4d;--okbg:#dff3e8;--warn:#a85d00;--warnbg:#fdf0dc;--info:#2b5f9e;--infobg:#e0ecfa;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d1014;--card:#2a181e;--ink:#f6e6ea;--mut:#c0a0a8;--line:#48282f;--acc:#ff7b9b;--accbg:#4a1d2a;--ok:#6fdca1;--okbg:#17382a;--warn:#f0b35a;--warnbg:#3a2c14;--info:#8bb9f0;--infobg:#1b2e48}}
+:root[data-theme="dark"]{--bg:#1d1014;--card:#2a181e;--ink:#f6e6ea;--mut:#c0a0a8;--line:#48282f;--acc:#ff7b9b;--accbg:#4a1d2a;--ok:#6fdca1;--okbg:#17382a;--warn:#f0b35a;--warnbg:#3a2c14;--info:#8bb9f0;--infobg:#1b2e48}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:980px;margin:0 auto;padding:20px 16px 48px}
+h1,h2,h3{font-family:Newsreader,Georgia,serif;line-height:1.2;margin:0}
+h1{font-size:clamp(1.8rem,5vw,2.5rem)}h2{font-size:1.45rem;margin:28px 0 10px;color:var(--acc)}h3{font-size:1.05rem;margin-bottom:6px}
+.sub,.hint{color:var(--mut)}.sub{margin:6px 0 16px;max-width:64ch}.hint{font-size:.88rem}
+nav{display:flex;gap:6px;border-bottom:1px solid var(--line);margin-bottom:12px;overflow-x:auto;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5}
+nav button{background:none;border:0;border-bottom:3px solid transparent;padding:10px 14px;font:inherit;font-weight:600;color:var(--mut);cursor:pointer;white-space:nowrap}
+nav button[aria-selected=true]{color:var(--ink);border-color:var(--acc)}
+button:focus-visible,.fc:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.panel[hidden]{display:none}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}
+.box p{margin:.3em 0}.box ul{margin:.3em 0;padding-left:1.1em}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:.88rem;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:#fff}
+.tag{display:inline-block;border-radius:6px;padding:2px 9px;font-size:.82rem;font-weight:700;background:var(--accbg);color:var(--acc);margin:2px 3px 2px 0}
+.bar{display:grid;grid-template-columns:120px 1fr 44px;gap:8px;align-items:center;margin:6px 0;font-size:.9rem}
+.bar div{height:16px;background:var(--line);border-radius:8px;overflow:hidden}.bar i{display:block;height:100%;background:var(--acc)}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:10px 0}
+.nd{background:var(--accbg);border:1px solid var(--acc);border-radius:8px;padding:6px 10px;font-size:.88rem;font-weight:600}.ar{color:var(--acc);font-weight:700}
+.big{font-family:Newsreader,Georgia,serif;font-size:2.2rem;font-weight:700;color:var(--acc)}
+.res{background:var(--okbg);border-left:5px solid var(--ok);border-radius:6px;padding:10px 12px;margin-top:8px}
+.note{background:var(--warnbg);color:var(--warn);border-radius:6px;padding:8px 10px;font-size:.88rem;margin-top:10px}
+table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}th{background:var(--accbg)}
+.tw{overflow-x:auto}
+.fc{perspective:1000px;height:270px;margin:12px 0;cursor:pointer}
+.in{position:relative;width:100%;height:100%;transition:transform .5s;transform-style:preserve-3d}.fl .in{transform:rotateY(180deg)}
+.f,.b{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;padding:20px;display:flex;flex-direction:column;justify-content:center;overflow:auto;border:1px solid var(--line)}
+.f{background:var(--card);font-size:1.2rem;font-family:Newsreader,Georgia,serif}.b{background:var(--accbg);transform:rotateY(180deg);font-size:1rem}
+.f small,.b small{color:var(--mut);font-family:system-ui,sans-serif;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}
+.btn{background:var(--acc);color:#fff;border:0;border-radius:8px;padding:8px 16px;font:inherit;font-weight:600;cursor:pointer}
+.btn.s{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.pb{height:6px;background:var(--line);border-radius:3px;margin:8px 0}.pb i{display:block;height:100%;background:var(--acc);border-radius:3px}
+.opt{display:block;width:100%;text-align:left;margin:6px 0;padding:10px 12px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;font:inherit;cursor:pointer}
+.opt.ok{background:var(--okbg);border-color:var(--ok)}.opt.no{background:var(--warnbg);border-color:var(--warn)}
+.fb{margin-top:10px;font-size:.93rem}
+</style></head><body><main>
+<h1>Carcinoma of the lip</h1>
+<p class="sub">Anatomy, pathology, staging and treatment as taught in your lecture, with infographics, flashcards, a quick true/false quiz and a 15-question MCQ exam. For study, not patient care.</p>
+<nav role="tablist"><button role="tab" aria-selected="true" data-t="inf">Infographics</button><button role="tab" aria-selected="false" data-t="fc">Flashcards</button><button role="tab" aria-selected="false" data-t="tf">Quick quiz</button><button role="tab" aria-selected="false" data-t="mcq">MCQ exam</button></nav>
+
+<section id="inf" class="panel">
+<h2>1. Where it happens</h2>
+<div class="box"><div class="bar"><span>Lower lip</span><div><i style="width:93%"></i></div><b>93%</b></div><div class="bar"><span>Upper lip</span><div><i style="width:5%"></i></div><b>5%</b></div><div class="bar"><span>Angle of mouth</span><div><i style="width:2%"></i></div><b>2%</b></div>
+<p class="hint">Lower lip: at the junction of the middle and outer thirds. The upper lip is the common site for a syphilitic chancre. Lower lip is mostly squamous cell carcinoma; upper lip is where basal cell carcinoma is commoner.</p></div>
+
+<h2>2. Causes: the 6 S's and the precancerous LLBB</h2>
+<div class="g"><div class="box"><h3>Chronic irritation (6 S)</h3><span class="tag">Smoking</span><span class="tag">Spirits</span><span class="tag">Spices</span><span class="tag">$ Syphilis</span><span class="tag">Sepsis</span><span class="tag">Sun / ionising radiation</span></div>
+<div class="box"><h3>Precancerous (LLBB)</h3><p><b>L</b>eukoplakia (5–15% turn malignant)</p><p><b>L</b>upus vulgaris</p><p><b>B</b>enign tumour, e.g. papilloma</p><p><b>B</b>urns</p></div></div>
+
+<h2>3. Pathology and spread</h2>
+<div class="g"><div class="box"><h3>Naked-eye types</h3><p><b>Exophytic:</b> malignant nodule (may ulcerate); <b>malignant ulcer (commonest)</b>.</p><p><b>Endophytic:</b> diffuse infiltrating "woody lip"; indurated malignant fissure.</p></div>
+<div class="box"><h3>Microscopy</h3><p><b>SCC</b> (cell nests, cell pearls): lower lip.</p><p><b>BCC:</b> upper lip.</p><p class="hint">Rare: melanoma, sarcoma, salivary gland tumours, myoblastoma, pyogenic granuloma, keratoacanthoma, granulomatous cheilitis.</p></div>
+<div class="box"><h3>Spread</h3><p><b>Direct:</b> within the lip; late to cheek, gum, mandible.</p><p><b>Lymphatic:</b> slow, late, rare (about 10%).</p><p><b>Blood:</b> extremely late and rare.</p></div></div>
+
+<h2>4. Lymph drainage explorer</h2>
+<div class="box"><div class="chips" id="lyc"></div><div class="flow" id="lyf"></div><p id="lyn" class="hint"></p></div>
+
+<h2>5. Anatomy at a glance</h2>
+<div class="g"><div class="box"><h3>Sensory</h3><p>Upper lip: <b>infraorbital</b> (V2)</p><p>Commissure: <b>buccal</b> (V3)</p><p>Lower lip: <b>mental</b> (V3)</p></div>
+<div class="box"><h3>Motor (facial nerve)</h3><p>Upper lip: <b>buccal branch</b></p><p>Lower lip: <b>marginal mandibular branch</b></p></div>
+<div class="box"><h3>Blood supply</h3><p>Superior and inferior <b>labial arteries</b> from the facial artery form a circumoral arcade at the vermilion border.</p><p>Veins drain to the <b>anterior facial vein</b>.</p></div></div>
+
+<h2>6. Clinical picture</h2>
+<div class="g"><div class="box"><h3>Patient</h3><p>Over 50 years, male more than female.</p><p>Rapidly growing, single ulcer: raised, everted edge; necrotic floor; indurated base extending beyond the ulcer, may be fixed.</p></div>
+<div class="box"><h3>Nodes if enlarged</h3><p><b>Infective:</b> firm, painful.</p><p><b>Metastatic:</b> hard, painless; mobile early, fixed late.</p><p>Numb lower lip along the mental nerve means growth up the nerve into the mandible.</p></div>
+<div class="box"><h3>Complications</h3><ul><li>Fungation and ulceration</li><li>Haemorrhage and infection</li><li>Dysarthria and dysphagia</li><li>Distant metastases</li></ul></div></div>
+<div class="note">Biopsy is mandatory: hyperkeratosis, cheilitis and keratoacanthoma can mimic carcinoma. Punch, incision or excision biopsy of the lesion; FNAC for suspicious nodes; X-ray or CT of neck and mandible to judge resectability.</div>
+
+<h2>7. Stage calculator</h2>
+<div class="box"><div class="chips" id="tc"></div><div class="chips" id="nc"></div><div class="chips" id="mc"></div>
+<div class="row"><span class="big" id="stg">Choose T, N and M</span></div><p class="hint" id="stx"></p>
+<div class="tw"><table><tr><th>T</th><th>Meaning</th><th>N</th><th>Meaning</th></tr><tr><td>Tis</td><td>Carcinoma in situ</td><td>N0</td><td>No nodes</td></tr><tr><td>T1</td><td>&lt; 2 cm</td><td>N1</td><td>One ipsilateral node &lt; 3 cm</td></tr><tr><td>T2</td><td>2–4 cm</td><td>N2a / b / c</td><td>One ipsilateral 3–6 cm / multiple ipsilateral / bilateral or contralateral</td></tr><tr><td>T3</td><td>&gt; 4 cm</td><td>N3</td><td>Node &gt; 6 cm</td></tr><tr><td>T4</td><td>Invades bone or surroundings</td><td>M1</td><td>Distant metastasis</td></tr></table></div></div>
+
+<h2>8. Treatment of the primary</h2>
+<div class="g"><div class="box"><h3>Stage I–II</h3><p>Surgery alone, <i>or</i> radiotherapy alone, <i>or</i> surgery then radiotherapy.</p></div><div class="box"><h3>Stage III–IV</h3><p>Surgery then radiotherapy, <i>or</i> palliative radiotherapy, <i>or</i> palliative chemotherapy (mitomycin C).</p></div>
+<div class="box"><h3>Margins (full thickness, frozen section)</h3><p>Stage I–II: <b>5–8 mm</b></p><p>Stage III–IV: <b>1–2 cm</b></p></div></div>
+<div class="g" style="margin-top:12px"><div class="box"><h3>Vermilionectomy (lip shave)</h3><p>Superficial or multicentric mucosal carcinoma, and premalignant lesions.</p></div><div class="box"><h3>Mohs surgery needs ALL of</h3><p>Stage I–II, well differentiated, thickness 2.5 mm or less, no muscle involvement.</p></div><div class="box"><h3>Surgery preferred when</h3><p>Under 50% of lip; bone infiltration; radio-recurrent or radioresistant; cancer on syphilitic scar; young patient.</p></div></div>
+
+<h2>9. Reconstruction picker</h2>
+<div class="box"><p class="hint">Full-thickness defect: how much of the lip is removed?</p><div class="chips" id="rc"></div><div class="res" id="rr">Choose a defect size.</div></div>
+
+<h2>10. Radiotherapy and neck nodes</h2>
+<div class="g"><div class="box"><h3>Radiotherapy</h3><p><b>Instead of surgery:</b> early lesion under 50% of lip, early commissure lesion (I–II), inoperable or unfit.</p><p><b>After surgery:</b> stage III–IV, recurrence, extracapsular spread, multilevel nodes, more than two positive nodes, perineural invasion, undissected N0 contralateral neck.</p><p class="hint">Lecture doses: interstitial radium needles 7000 rad over 7 days; external beam 5000 rad over 15 days.</p></div>
+<div class="box"><h3>No palpable nodes</h3><p>Monthly follow-up. <b>Prophylactic supraomohyoid dissection</b> if: tumour over 3 cm (especially commissure), local recurrence, thickness over 5 mm, undifferentiated, perineural invasion.</p></div>
+<div class="box"><h3>Palpable nodes</h3><p>Supraomohyoid dissection is enough, unless <b>upper deep cervical nodes</b> are involved or the tumour is highly malignant: then modified radical or radical neck dissection.</p></div></div>
+<div class="note">Prognosis is good except with nodal involvement and with carcinoma at the angle of the mouth (double lymphatic drainage, up and down). Inoperable: unfit, distant metastases, or unresectable infiltration; give palliative radiotherapy or chemotherapy.</div>
+<p class="hint" style="margin-top:14px">Content follows your lecture notes. The lecture ranks lip carcinoma as the commonest oral cavity tumour; many textbooks treat the lip separately from intraoral sites, so check your exam's wording.</p>
+</section>
+
+<section id="fc" class="panel" hidden>
+<div class="chips" id="fcat"></div>
+<div class="fc" id="fcard" tabindex="0" role="button" aria-label="Flashcard, press Enter to flip"><div class="in"><div class="f" id="ff"></div><div class="b" id="fb2"></div></div></div>
+<div class="pb"><i id="fpb"></i></div><p class="hint" id="fst"></p>
+<div class="row"><button class="btn s" id="fp">Previous</button><button class="btn s" id="fn">Next</button><button class="btn s" id="fsh">Shuffle</button><button class="btn" id="fk">I know it</button><button class="btn s" id="fr">Review again</button></div>
+<p class="hint">Tap the card or press Enter to flip.</p></section>
+
+<section id="tf" class="panel" hidden><div class="box" id="tfq"></div></section>
+<section id="mcq" class="panel" hidden><div class="box" id="mq"></div></section>
+
+<script>
+const $=id=>document.getElementById(id);
+const shuf=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+function chipsRow(el,opts,cb,sel){el.innerHTML=opts.map(o=>`<button class="chip" aria-pressed="false">${o}</button>`).join("");[...el.children].forEach((b,i)=>b.onclick=()=>{[...el.children].forEach(x=>x.setAttribute("aria-pressed",x===b));cb(opts[i])});if(sel!=null)el.children[sel].click()}
+/* lymph explorer */
+const LY={"Upper lip":[["Upper lip","Ipsilateral preauricular, infraparotid, submandibular, submental","Upper deep cervical (level II)"],"One side only: the embryonic fusion plane of the frontonasal process separates the sides, so no contralateral drainage."],
+"Lower lip (central)":[["Lower lip, centre","Submental nodes","Upper deep cervical (II, sometimes III)"],"Midline anastomoses mean drainage is bilateral. About 22% of lower-lip lymphatics also enter the mental foramen."],
+"Lower lip (lateral)":[["Lower lip, lateral part","Submandibular nodes","Upper deep cervical (II, sometimes III)"],"Bilateral crossover is possible because the mandibular processes fuse in the midline."],
+"Angle of mouth":[["Angle of mouth","Submandibular and submental nodes","Upper deep cervical"],"Double drainage, upward and downward, which is why angle carcinoma has a worse prognosis."]};
+chipsRow($("lyc"),Object.keys(LY),k=>{$("lyf").innerHTML=LY[k][0].map(x=>`<span class="nd">${x}</span>`).join('<span class="ar">→</span>');$("lyn").textContent=LY[k][1]},1);
+/* staging */
+let T,N,M="M0";
+function stage(){if(!T||!N){return}let s,x;
+ if(M=="M1"){s="IV";x="Any distant metastasis is stage IV."}
+ else if(T=="T4"||N=="N2"||N=="N3"){s="IV";x=T=="T4"?"T4 (invades bone or surroundings).":"N2 or N3 nodal disease."}
+ else if(T=="Tis"&&N=="N0"){s="0";x="Carcinoma in situ."}
+ else if(N=="N1"||T=="T3"){s="III";x=N=="N1"?"Single small ipsilateral node (N1).":"T3 (over 4 cm), node negative."}
+ else if(T=="T2"){s="II";x="T2 (2–4 cm), node negative."}
+ else {s="I";x="T1 (under 2 cm), node negative."}
+ $("stg").textContent="Stage "+s;$("stx").textContent=x}
+chipsRow($("tc"),["Tis","T1","T2","T3","T4"],v=>{T=v;stage()});chipsRow($("nc"),["N0","N1","N2","N3"],v=>{N=v;stage()});chipsRow($("mc"),["M0","M1"],v=>{M=v;stage()},0);
+/* reconstruction */
+const RC={"Under 50% of lip":"V-shaped (wedge) excision and direct two-layer closure: mucomuscular layer and skin.","50–75%, near the angle":"Abbé–Estlander flap: V-shaped flap from the opposite (upper) lip; the angle of the mouth is opened at a later stage.","50–75%, away from the angle":"Karapandzic flap (circumoral advancement preserving the neurovascular supply).","Over 75%":"Webster–Bernard flap, nasolabial flap based on the superior labial artery, revascularised free flap, or other regional flap.","Vermilion only (after lip shave)":"Advance labial or buccal mucosa by submucosal dissection; or two-stage flaps (opposite lip, ventral tongue, cross-lip mucosal); small gaps by V–Y advancement."};
+chipsRow($("rc"),Object.keys(RC),k=>$("rr").textContent=RC[k]);
+/* flashcards */
+const C=[
+["Anatomy","Sensory nerve to the skin and mucosa of the upper lip?","Infraorbital branch of the maxillary nerve (V2)."],
+["Anatomy","Sensory supply of the oral commissure and of the lower lip?","Commissure: buccal branch of V3. Lower lip: mental branch of V3."],
+["Anatomy","Motor supply to the upper lip and lower lip muscles?","Facial nerve: buccal branch (upper); marginal mandibular branch (lower)."],
+["Anatomy","Blood supply and venous drainage of the lip?","Superior and inferior labial arteries (from the facial artery) forming a circumoral arcade; veins to the anterior facial vein."],
+["Anatomy","Why does the upper lip not drain to the contralateral side?","The embryonic fusion plane of the central frontonasal process separates the lateral maxillary processes and their lymphatics."],
+["Anatomy","Lymph drainage of the lower lip?","Submental and submandibular nodes, bilateral via midline anastomoses (22% also enter the mental foramen); then level II, occasionally III."],
+["Etiology","The 6 S's of lip cancer?","Smoking, Spirits, Spices, $ (syphilis), Sepsis, Sun / ionising radiation."],
+["Etiology","Precancerous conditions (LLBB)?","Leukoplakia (5–15%), Lupus vulgaris, Benign tumour (papilloma), Burns."],
+["Pathology","Site distribution?","Lower lip (middle/outer third junction) 93%; upper lip 5%; angle of mouth 2%."],
+["Pathology","Commonest histology in lower lip versus upper lip?","Lower: squamous cell carcinoma (cell nests, pearls). Upper: basal cell carcinoma."],
+["Pathology","Naked-eye types?","Exophytic: nodule, malignant ulcer (commonest). Endophytic: diffuse woody lip, indurated malignant fissure."],
+["Pathology","Routes of spread?","Direct (lip, then cheek, gum, mandible); lymphatic (slow, late, rare, about 10%); blood (extremely late)."],
+["Pathology","Rare lip tumours and tumour-like lesions?","Melanoma, sarcoma, salivary gland tumours, myoblastoma, pyogenic granuloma, keratoacanthoma, granulomatous cheilitis."],
+["Pathology","Lymph node stations for central lower lip, lateral lower lip, and angle of mouth?","Submental; submandibular; upper deep cervical. Upper lip: preauricular, then upper deep cervical."],
+["Clinical","Characters of the lip cancer ulcer?","Single; raised everted edge; necrotic floor; indurated base extending beyond it, may be fixed; bloody or purulent discharge."],
+["Clinical","Infective versus metastatic nodes?","Infective: firm and painful. Metastatic: hard, painless, mobile early, fixed late."],
+["Clinical","Why numbness over the chin?","Tumour grows along the mental nerve into the medulla of the mandible."],
+["Clinical","Complications?","Fungation and ulceration, haemorrhage and infection, dysarthria and dysphagia, distant metastases."],
+["Clinical","Investigations?","Biopsy is mandatory (punch, incision, excision); FNAC for nodes; X-ray and CT of neck and mandible for resectability."],
+["Staging","T stage?","Tis in situ; T1 under 2 cm; T2 2–4 cm; T3 over 4 cm; T4 invades bone or surroundings."],
+["Staging","N stage?","N0 none; N1 single ipsilateral under 3 cm; N2a single 3–6 cm; N2b multiple ipsilateral; N2c bilateral or contralateral; N3 over 6 cm."],
+["Staging","Stage grouping?","I: T1N0. II: T2N0. III: T3N0 or N1. IV: T4, N2–3, or any M1."],
+["Treatment","Excision margins?","Stage I–II: 5–8 mm. Stage III–IV: 1–2 cm. Full thickness with frozen section."],
+["Treatment","Indications for vermilionectomy?","Superficial carcinoma limited to mucosa or multicentric; premalignant lesions."],
+["Treatment","Criteria for Mohs surgery?","Stage I–II, well differentiated, thickness 2.5 mm or less, no muscle involvement."],
+["Treatment","Reconstruction by defect size?","Under 50%: V excision and direct closure. 50–75% near angle: Abbé–Estlander; away: Karapandzic. Over 75%: Webster–Bernard, nasolabial, free or regional flap."],
+["Treatment","Postoperative radiotherapy indications?","Stage III–IV, recurrence, extracapsular spread, multilevel nodes, over two positive nodes, perineural invasion, undissected N0 contralateral neck."],
+["Treatment","When to do prophylactic supraomohyoid dissection in N0?","Tumour over 3 cm (esp. commissure), local recurrence, thickness over 5 mm, undifferentiated tumour, perineural invasion."],
+["Treatment","Palpable nodes: which operation?","Supraomohyoid dissection; modified radical or radical neck dissection if upper deep cervical nodes are involved or tumour is highly malignant."],
+["Treatment","Poor prognostic features?","Lymph node involvement; carcinoma at the angle of the mouth (double lymphatic drainage)."]];
+let deck=[],di=0,kn=new Set(),cat="All";
+const cats=["All",...new Set(C.map(c=>c[0]))];
+chipsRow($("fcat"),cats,v=>{cat=v;deck=C.filter(c=>v=="All"||c[0]==v);di=0;card()},0);
+function card(){const c=deck[di];$("fcard").classList.remove("fl");$("ff").innerHTML=`<small>${c[0]}</small>${c[1]}`;$("fb2").innerHTML=`<small>Answer</small>${c[2]}`;
+ const k=deck.filter(x=>kn.has(x)).length;$("fpb").style.width=k/deck.length*100+"%";$("fst").textContent=`Card ${di+1} of ${deck.length}. Known: ${k}${kn.has(c)?" (this one is marked known)":""}`}
+const flip=()=>$("fcard").classList.toggle("fl");
+$("fcard").onclick=flip;$("fcard").onkeydown=e=>{if(e.key=="Enter"||e.key==" "){e.preventDefault();flip()}};
+const go=d=>{di=(di+d+deck.length)%deck.length;card()};
+$("fp").onclick=()=>go(-1);$("fn").onclick=()=>go(1);$("fsh").onclick=()=>{deck=shuf(deck);di=0;card()};
+$("fk").onclick=()=>{kn.add(deck[di]);card();if(di<deck.length-1)go(1)};$("fr").onclick=()=>{kn.delete(deck[di]);go(1)};
+/* quiz engine */
+function quiz(el,items,title){let ord,i,sc,miss;
+ const start=()=>{ord=shuf(items);i=0;sc=0;miss=[];step()};
+ function step(){if(i>=ord.length)return end();const q=ord[i];
+  el.innerHTML=`<p class="hint">${title}: question ${i+1} of ${ord.length}. Score ${sc}</p><div class="pb"><i style="width:${i/ord.length*100}%"></i></div><h3>${q[0]}</h3>${q[1].map((o,k)=>`<button class="opt" data-k="${k}">${o}</button>`).join("")}<div class="fb" id="fb"></div>`;
+  el.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{const k=+b.dataset.k,ok=k==q[2];el.querySelectorAll(".opt").forEach(x=>{x.disabled=true;if(+x.dataset.k==q[2])x.classList.add("ok")});if(ok)sc++;else{b.classList.add("no");miss.push(q)}
+   $("fb").innerHTML=`<b>${ok?"Correct.":"Not quite."}</b> ${q[3]}<br><br><button class="btn" id="nx">${i==ord.length-1?"See results":"Next"}</button>`;$("nx").onclick=()=>{i++;step()}})}
+ function end(){const p=Math.round(sc/ord.length*100);el.innerHTML=`<div class="big">${sc} / ${ord.length}</div><p>${p>=80?"Excellent. You have the key points.":p>=60?"Good. Revise the missed items below.":"Keep going: use the flashcards, then retry."}</p>${miss.length?"<h3>Review these</h3>"+miss.map(q=>`<p><b>${q[0]}</b><br>${q[1][q[2]]}. ${q[3]}</p>`).join(""):""}<button class="btn" id="rs">Try again</button>`;$("rs").onclick=start}
+ start()}
+const TF=[
+["Lymphatic spread of lip cancer is early and common.",["True","False"],1,"It is slow, late and rare (about 10%)."],
+["The upper lip is the common site for a syphilitic chancre.",["True","False"],0,"Upper lip is about 5% of lip cancers but the common chancre site."],
+["Haematogenous spread is extremely late and rare.",["True","False"],0,"Yes: direct and lymphatic spread come first."],
+["A typical-looking lip ulcer can be treated without biopsy.",["True","False"],1,"Biopsy is mandatory; keratoacanthoma, cheilitis and hyperkeratosis mimic carcinoma."],
+["Mohs surgery suits stage I–II, well-differentiated tumours up to 2.5 mm thick without muscle involvement.",["True","False"],0,"All four criteria must be met."],
+["Vermilionectomy is the treatment for a carcinoma infiltrating the mandible.",["True","False"],1,"It is for superficial mucosal or premalignant disease; bone invasion needs radical surgery."],
+["The Karapandzic flap is used for 50–75% defects away from the angle.",["True","False"],0,"Near the angle, use the Abbé–Estlander flap."],
+["The lower lip drains only to ipsilateral nodes.",["True","False"],1,"Midline anastomoses give bilateral drainage; the upper lip is the one that drains ipsilaterally."],
+["Every enlarged node in lip cancer is metastatic.",["True","False"],1,"Infective nodes (firm, painful) are common."],
+["Radiotherapy is an accepted alternative to surgery for early lesions under 50% of the lip.",["True","False"],0,"It is optional in early disease and for early commissure lesions (stage I–II)."],
+["Lip veins drain to the anterior facial vein.",["True","False"],0,"They accompany the labial arteries."],
+["N2c means metastasis to bilateral or contralateral nodes.",["True","False"],0,"N2a single ipsilateral 3–6 cm; N2b multiple ipsilateral; N2c bilateral or contralateral."]];
+const MQ=[
+["Commonest site of lip carcinoma?",["Upper lip midline","Lower lip, junction of middle and outer thirds","Angle of mouth","Upper lip philtrum"],1,"Lower lip accounts for about 93%."],
+["Sensory nerve of the lower lip skin and mucosa?",["Infraorbital","Buccal","Mental","Lingual"],2,"Mental branch of the mandibular nerve."],
+["Motor supply of the lower lip musculature?",["Buccal branch of facial","Marginal mandibular branch of facial","Mental nerve","Zygomatic branch"],1,"Upper lip uses the buccal branch."],
+["First lymph node station for carcinoma of the centre of the lower lip?",["Preauricular","Submental","Retropharyngeal","Level IV"],1,"Lateral parts go to submandibular nodes."],
+["Why does the upper lip lack contralateral lymphatic drainage?",["Rich midline anastomoses","Embryonic fusion plane of the frontonasal process","Absent lymphatics","Facial artery"],1,"The fusion plane separates the lateral maxillary processes and their lymphatics."],
+["Commonest histological type of lip cancer?",["Basal cell carcinoma","Squamous cell carcinoma","Melanoma","Adenocarcinoma"],1,"SCC with cell nests and pearls in the lower lip; BCC is commoner in the upper lip."],
+["Which is NOT one of the 6 S's of lip cancer aetiology?",["Spices","Sepsis","Sugar","Sun rays"],2,"The 6 S's: smoking, spirits, spices, syphilis ($), sepsis, sun."],
+["Leukoplakia of the lip becomes malignant in about:",["Under 1%","5–15%","30–40%","Over 60%"],1,"It is the commonest precancerous lesion."],
+["Diffuse infiltration producing a 'woody lip' is which gross type?",["Exophytic nodule","Exophytic ulcer","Endophytic","Papillary"],2,"Endophytic types: diffuse woody lip and indurated fissure."],
+["Numbness of the lower lip and chin in lip cancer suggests:",["Facial nerve palsy","Spread along the mental nerve into the mandible","Infection","Trigeminal neuralgia"],1,"Perineural spread into the mandibular medulla."],
+["A 3 cm lower lip carcinoma with no nodes or metastases is stage:",["I","II","III","IV"],1,"T2 (2–4 cm), N0, M0 = stage II."],
+["Required excision margin for stage I–II lip cancer?",["1–2 mm","5–8 mm","1–2 cm","3 cm"],1,"Stage III–IV needs 1–2 cm, checked by frozen section."],
+["Full-thickness defect of 60% of the lower lip, near the angle of the mouth. Best repair?",["Direct V closure","Abbé–Estlander flap","Karapandzic flap","Skin graft"],1,"Karapandzic is used when the defect is away from the angle."],
+["Prophylactic supraomohyoid neck dissection in N0 disease is indicated for:",["Tumour under 1 cm","Tumour thickness over 5 mm","Well-differentiated tumour","Stage I only"],1,"Also tumour over 3 cm, recurrence, undifferentiated, perineural invasion."],
+["Why does carcinoma at the angle of the mouth have a poorer prognosis?",["More aggressive histology","Double lymphatic drainage, upward and downward","Blood-borne spread","Poor radiosensitivity"],1,"Nodes at both levels are at risk."]];
+quiz($("tfq"),TF,"True or false");quiz($("mq"),MQ,"MCQ exam");
+document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{document.querySelectorAll("nav button").forEach(x=>x.setAttribute("aria-selected",x==b));document.querySelectorAll(".panel").forEach(p=>p.hidden=p.id!=b.dataset.t)});
+</script></main></body></html>
